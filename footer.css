@@ -1,0 +1,88 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #292c2f;
+    color: #bbb;
+}
+
+.outer-space {
+    border: 1px solid;
+}
+
+.faq-col {
+    width: 49%;
+    float: left;
+    display: inline;
+}
+
+.col-1 {
+    width: 49%;
+    float: left;
+    display: inline;
+}
+
+.col-2 {
+    width: 49%;
+    float: right;
+    display: inline;
+}
+
+.bullet-list {
+    list-style: none;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+.email-col {
+    width: 49%;
+    float: right;
+    display: inline;
+}
+
+.email-background {
+    background-color: #292c2f;
+    border-color: #292c2f;
+    border: none;
+    color: #f6fcff;
+}
+
+.textbox {
+    background-color: black;
+    border-radius: 5px;
+}
+
+input {
+    color: #999;
+}
+
+.animated-underline {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 3px;
+    background: #000000; }
+
+.animated-underline:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 4px;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+    animation: animated-line 2s linear infinite;
+}
+
+@keyframes animated-line {
+    0% {
+      -webkit-transform: translateX(0px);
+      transform: translateX(0px); }
+    100% {
+      -webkit-transform: translateX(113px);
+      transform: translateX(113px); }
+    }

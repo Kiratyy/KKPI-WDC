@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    background: black;
+    width: 1000px;
+    height: 600px;
+    margin: 10px;
+}
+
+.card-image{
+    background-color: aquamarine;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.one{
+    background-image: url(one.jpg);
+}
